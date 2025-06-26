@@ -1,0 +1,116 @@
+{
+  "id": "6a72db30-ddcf-4983-b62f-49b372ca7d70",
+  "version": "2.0",
+  "name": "plp_test",
+  "url": "https://academy.powerlearnprojectafrica.org",
+  "tests": [{
+    "id": "9c922a54-c7f5-48f5-8666-9918e2f9daee",
+    "name": "Untitled",
+    "commands": [{
+      "id": "816e49ed-10f9-4f4a-9e92-19da6dd3d79e",
+      "comment": "",
+      "command": "open",
+      "target": "/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "66270382-d221-457d-8bb1-09107364c4b6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "669x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "260d5148-8c3c-4cf6-8f24-635876e00fdf",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "42fe0495-86a1-4589-b331-2e09be460978",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "mwangiwambugu@gmail.com"
+    }, {
+      "id": "7dceaa92-2a56-4ef8-a578-1f5a2da750b1",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b00cfe0d-5a14-452c-bc06-629d387ee447",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Mwangi@29542069"
+    }, {
+      "id": "32776079-8097-4d03-a9b1-13421dac84c2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.inline-flex",
+      "targets": [
+        ["css=.inline-flex", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "acbf0b5d-c252-4230-a0ea-be79092d8ecc",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.rounded-\\[33px\\]:nth-child(2)",
+      "targets": [
+        ["css=.rounded-\\[33px\\]:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='scoped-theme-wrapper']/div[2]/div/div/div[2]/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Complete')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2c9f7211-06d3-4dea-b82d-93b9714b0afe",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9c922a54-c7f5-48f5-8666-9918e2f9daee"]
+  }],
+  "urls": ["https://academy.powerlearnprojectafrica.org/"],
+  "plugins": []
+}
