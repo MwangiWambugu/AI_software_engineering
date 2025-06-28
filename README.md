@@ -24,6 +24,8 @@ Selenium IDe is commonly used to simulate user actions such as clicking buttons,
 ### Introduction
 Predictive models, such as Random Forest classifiers, are increasingly used in healthcare to assist in cancer screening—particularly in distinguishing between benign and malignant tumors. While these models offer promising support for clinicians, they can introduce or amplify biases if the underlying data is flawed.
 
+The dataset comes from  https://www.kaggle.com/competitions/iuss-23-24-automatic-diagnosis-breast-cancer/data
+
 ### Problem Statement
 Breast cancer remains one of the leading causes of cancer-related deaths among women worldwide. Early detection significantly improves the chances of successful treatment and survival. However, traditional screening methods, such as mammography and biopsy, are often time-consuming, resource-intensive, and subject to human error. Additionally, disparities in healthcare access and diagnostic accuracy can lead to delayed or incorrect diagnoses, particularly in underrepresented or underserved populations. There is a critical need for reliable, automated systems that can assist in accurately classifying breast cancer cases as benign or malignant based on medical imaging. Developing an effective machine learning model to support early diagnosis could enhance clinical decision-making, reduce diagnostic errors, and ultimately save lives.
 
